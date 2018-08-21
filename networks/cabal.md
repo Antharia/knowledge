@@ -1,4 +1,4 @@
-#Cabal
+# Cabal
 Cabal is an experimental p2p community chat platform.
 
 [Website](https://cabal-club.github.io/)
