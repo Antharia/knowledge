@@ -1,12 +1,15 @@
 # Cabal
 Cabal is an experimental p2p community chat platform.
+
 [Website](https://cabal-club.github.io/)
+
 [Source](https://github.com/cabal-club)
 ## Install
 In your terminal : 
 > npm i -g cabal
 ## Clients
 [Desktop](https://github.com/cabal-club/cabal-desktop)
+
 [Mobile](https://github.com/cabal-club/cabal-mobile)
 ## Public
 To join the cabal public chat
