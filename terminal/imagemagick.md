@@ -8,4 +8,4 @@ Ignore Aspect Ratio ('!' flag)
 > convert dragon.gif    -resize 64x64\!  exact_dragon.gif
 
 Only Shrink Larger Images ('>' flag)
-``` convert dragon.gif    -resize 64x64\>  shrink_dragon.gif
+> convert dragon.gif    -resize 64x64\>  shrink_dragon.gif
