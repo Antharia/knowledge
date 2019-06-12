@@ -18,7 +18,9 @@ Invert colors
 
 Turn a video into a gif
 > mkdir frames
+
 > ffmpeg -i input.mp4 -vf scale=640:-1:flags=lanczos,fps=10 frames/ffout%03d.png
+
 > convert -loop 0 frames/ffout0*.png output.gif
 
 https://imagemagick.org/script/convert.php
