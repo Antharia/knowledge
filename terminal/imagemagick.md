@@ -23,5 +23,8 @@ Turn a video into a gif
 
 > convert -loop 0 frames/ffout0*.png output.gif
 
+Change quality
+> convert high.jpg -quality 80 low.jpg
+
 https://imagemagick.org/script/convert.php
 
