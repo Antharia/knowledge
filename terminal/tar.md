@@ -20,7 +20,7 @@ But you should still ensure that it is installed on your system. You can use you
 
 On Debian or Ubuntu, you can install xz-utils with the following command:
 
-> sudo apt install xz-utils
+    sudo apt install xz-utils
 
 Once you have the xz compression support on your Linux distribution, you can extract the tar.xz file using the standard tar command:
 
