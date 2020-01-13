@@ -8,11 +8,11 @@ Using **tar**, you can archive several files into one single file and thus you s
 
 But **tar** itself doesn’t compress files. If you use tar to combine 100 files of 1 KB each, the resultant **tar** file will probably be around 100 KB only.
 
-To further save time and bandwidth, compression utilities are used. These compression tools will reduce the size of the resultant tar file. XZ is one such compression tool and it utilizes LZMA compression algorithm.
+To further save time and bandwidth, compression utilities are used. These compression tools will reduce the size of the resultant **tar** file. XZ is one such compression tool and it utilizes LZMA compression algorithm.
 
 ## Extracting tar.xz file in Linux
 
-Extracting a tar xz file is fairly simple. You just need to make sure that you have support for xz compression utility on your Linux distribution.
+Extracting a **tar** xz file is fairly simple. You just need to make sure that you have support for xz compression utility on your Linux distribution.
 
 xz compression tool is available through xz-utils package in most Linux distributions. Most of the time, you’ll already have the xz-utils installed by default.
 
@@ -20,11 +20,11 @@ But you should still ensure that it is installed on your system. You can use you
 
 On Debian or Ubuntu, you can install xz-utils with the following command:
 
-sudo apt install xz-utils
+> sudo apt install xz-utils
 
 Once you have the xz compression support on your Linux distribution, you can extract the tar.xz file using the standard tar command:
 
->> tar -xf file.tar.xz
+> tar -xf file.tar.xz
 
 In here:
 
