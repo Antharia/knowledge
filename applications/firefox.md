@@ -8,26 +8,26 @@
 
 ### Some options
 
-breakpad.reportURL                                                  ""
-browser.aboutHomeSnippets.updateUrl                                 ""
-browser.cache.offline.enable                                        false
-browser.cache.use_new_backend                                       1
-browser.fixup.alternate.enabled                                     false
-browser.formfill.enable                                             false
-browser.formfill.expire_days                                        0
-browser.newtab.preload                                              false
-browser.newtabpage.directory.ping                                   ""
-browser.newtabpage.directory.source                                 "data:text/plain,{}");
-browser.newtabpage.enabled                                          false
-browser.newtabpage.enhanced                                         false
-browser.rights.3.shown                                              3
-browser.safebrowsing.blockedURIs.enabled                            false
-browser.safebrowsing.downloads.enabled                              false
-browser.safebrowsing.downloads.remote.block_potentially_unwanted    false
-browser.safebrowsing.downloads.remote.block_uncommon                false
-browser.safebrowsing.downloads.remote.url                           ""
-browser.safebrowsing.id                                             ""
-browser.safebrowsing.malware.enabled                                false
+breakpad.reportURL                                                  ""      
+browser.aboutHomeSnippets.updateUrl                                 ""   
+browser.cache.offline.enable                                        false   
+browser.cache.use_new_backend                                       1   
+browser.fixup.alternate.enabled                                     false   
+browser.formfill.enable                                             false   
+browser.formfill.expire_days                                        0   
+browser.newtab.preload                                              false   
+browser.newtabpage.directory.ping                                   ""   
+browser.newtabpage.directory.source                                 "data:text/plain,{}");   
+browser.newtabpage.enabled                                          false   
+browser.newtabpage.enhanced                                         false   
+browser.rights.3.shown                                              3   
+browser.safebrowsing.blockedURIs.enabled                            false   
+browser.safebrowsing.downloads.enabled                              false   
+browser.safebrowsing.downloads.remote.block_potentially_unwanted    false   
+browser.safebrowsing.downloads.remote.block_uncommon                false   
+browser.safebrowsing.downloads.remote.url                           ""   
+browser.safebrowsing.id                                             ""   
+browser.safebrowsing.malware.enabled                                false   
 browser.safebrowsing.phishing.enabled                               false
 browser.safebrowsing.provider.google.gethashURL                     ""
 browser.safebrowsing.provider.google.reportURL                      ""
