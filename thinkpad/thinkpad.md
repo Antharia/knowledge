@@ -6,9 +6,11 @@
 find /sys/devices/platform/i8042 -name name | xargs grep -Fl TrackPoint | sed 's/\/input\/input[0-9]*\/name$//'
 ```
 
+### Change parameters
+
 `0` <- slower ------------ faster -> `250`
 
-**ATTENTION** if write `0`, trackpoint does not move  
+**ATTENTION** if you write `0`, trackpoint won't move anymore.  
 
 ```console
 echo 80 | sudo tee /sys/devices/platform/i8042/serio1/serio2/speed
