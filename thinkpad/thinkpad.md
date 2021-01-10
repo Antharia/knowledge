@@ -11,6 +11,6 @@ find /sys/devices/platform/i8042 -name name | xargs grep -Fl TrackPoint | sed 's
 **ATTENTION** if write `0`, trackpoint does not move  
 
 ```console
-echo 250 | sudo tee /sys/devices/platform/i8042/serio1/serio2/speed
-echo 180 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity
+echo 80 | sudo tee /sys/devices/platform/i8042/serio1/serio2/speed
+echo 100 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity
 ```
