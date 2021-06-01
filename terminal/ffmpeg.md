@@ -15,3 +15,7 @@ st=XX, XX is the starting point in seconds
 d=X, X is the duration in seconds
 
     ffmpeg -i output.mkv -af "afade=t=out:st=XX:d=X" output2.mkv
+    
+## Capture screen on Linux
+
+    ffmpeg -video_size 1280x800 -framerate 24 -f x11grab -i :0.0 output.mp4
