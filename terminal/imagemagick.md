@@ -10,23 +10,28 @@ Ignore Aspect Ratio ('!' flag)
     convert dragon.gif    -resize 64x64\!  exact_dragon.gif
 
 Only Shrink Larger Images ('>' flag)
-> convert dragon.gif    -resize 64x64\>  shrink_dragon.gif
+
+    convert dragon.gif    -resize 64x64\>  shrink_dragon.gif
 
 Convert to grayscale
-> $ convert image.png -colorspace gray image-grayscale.png
+
+    convert image.png -colorspace gray image-grayscale.png
 
 Invert colors
-> convert input.png -channel RGB -negate output.png
+
+    convert input.png -channel RGB -negate output.png
 
 Turn a video into a gif
-> mkdir frames
 
-> ffmpeg -i input.mp4 -vf scale=640:-1:flags=lanczos,fps=10 frames/ffout%03d.png
+    mkdir frames
 
-> convert -loop 0 frames/ffout0*.png output.gif
+    ffmpeg -i input.mp4 -vf scale=640:-1:flags=lanczos,fps=10 frames/ffout%03d.png
+    
+    convert -loop 0 frames/ffout0*.png output.gif
 
 Change quality
-> convert high.jpg -quality 80 low.jpg
+
+    convert high.jpg -quality 80 low.jpg
 
 https://imagemagick.org/script/convert.php
 
