@@ -32,6 +32,10 @@ Turn a video into a gif
 Change quality
 
     convert high.jpg -quality 80 low.jpg
+    
+You can get image resolution with _file_ command
+
+    file picture.png
 
 https://imagemagick.org/script/convert.php
 
