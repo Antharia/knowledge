@@ -33,9 +33,14 @@ Change quality
 
     convert high.jpg -quality 80 low.jpg
     
+Normalize
+    
+    convert image.jpg -normalize normalized.jpg
+    
 You can get image resolution with _file_ command
 
     file picture.png
+
 
 https://imagemagick.org/script/convert.php
 
