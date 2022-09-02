@@ -38,4 +38,10 @@ Encoding with options :
 
     ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 output.mkv
     
+## Compress video file
+
+An example with x265 codec :
+
+    ffmpeg -i file.mkv -vcodec libx265 -crf 28 compressed_file.mp4
+    
     
